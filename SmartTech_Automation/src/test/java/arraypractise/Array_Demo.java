@@ -6,7 +6,7 @@ public class Array_Demo {
 
 	public static void main(String[] args) {
 		
-		@SuppressWarnings("resource")
+	
 		Scanner input = new Scanner(System.in);
 		double sum = 0;
 		double [] number = new double [5];
