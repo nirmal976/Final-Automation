@@ -6,7 +6,7 @@ public class HashSetDemo1 {
 
 	public static void main(String[] args) {
 		
-		HashSet hs = new HashSet(); // default capacity 16 and load factor 0.75
+		HashSet<String> hs = new HashSet<>(); // default capacity 16 and load factor 0.75
 		//HashSet hs = new HashSet(100); // initial capacity 100
 
 		//HashSet hs = new HashSet(100,(float)0.90); //  load factor 0.90 or 90%
@@ -14,14 +14,15 @@ public class HashSetDemo1 {
 	//	HashSet<Integer> hs = new HashSet<Integer>();
 		
 		// add objects/elements into HashSet
-		hs.add(100);
+		/*hs.add(100);
 		hs.add("Nirmal");
 		hs.add(20.99);
 		hs.add('A');
 		hs.add(false);
 		hs.add(null);
 		
-		System.out.println(hs);// [null, A, 100, false, Nirmla, 20.99] insertion order not preserve
+		
+		/*System.out.println(hs);// [null, A, 100, false, Nirmla, 20.99] insertion order not preserve
 
 		hs.remove(20.99);
 		System.out.println("After Removing Element : "+hs);
@@ -35,8 +36,7 @@ public class HashSetDemo1 {
 		
 		for(Object e:hs) {
 			System.out.println(e);
-		}
-		
+		}*/
 		
 	}
 
