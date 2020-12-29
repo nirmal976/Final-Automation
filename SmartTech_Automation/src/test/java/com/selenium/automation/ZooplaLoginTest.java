@@ -36,6 +36,7 @@ public class ZooplaLoginTest {
 		driver.findElement(By.id("signin_submit")).click();
 		driver.findElement(By.xpath("(//a[@data-testid='header-profile-account'])[1]")).click();
 		System.out.println(driver.getTitle());
+		
 	}
 
 }
