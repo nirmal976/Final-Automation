@@ -14,7 +14,7 @@ public class DBCongigure {
 			Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/orcl", "hr", "hr");
 			Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_READ_ONLY);
 			// Execute Query
-			ResultSet rs = stmt.executeQuery(SQLQuery);
+			ResultSet rs = stmt.executeQuery("select * from Employees;");
 
 			// Read the data from db
 			ArrayList<String> columnValue = new ArrayList<>();

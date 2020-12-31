@@ -16,7 +16,11 @@ public class StringPractise_Demo1 {
 		String name3 = new String("British Bangla");
 		String name4 = new String("British Bangla");
 		System.out.println(name3==name4); // false Its not compare value compare object
+		//System.out.println(name3.equals(name4));
 		
+		
+		
+		System.out.println(name3.equals(name4));
 		String name5 = new String("Spice Garden");
 			   name5 = new String("BB-Mats");
 			   System.out.println(name5==name5); // true
@@ -70,10 +74,10 @@ public class StringPractise_Demo1 {
 	
 	public static void main(String[] args) {
 		
-		//compareString();
-	//	removeSpecialSign();
-	//	removeExtraSpace(); 
-		getDate();
+	compareString();
+	//removeSpecialSign();
+	//removeExtraSpace(); 
+		//getDate();
 		
 		
 	}

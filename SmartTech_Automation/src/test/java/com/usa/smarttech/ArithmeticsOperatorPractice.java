@@ -22,7 +22,7 @@ public class ArithmeticsOperatorPractice {
 		System.out.println(a%b); // Modulo operator returns remainder, for example 100 % 20 would return 0
 		
 		
-		System.out.println(a+b+x+y);
+		System.out.println(a+b+x+y);//
 		System.out.println(a-b+x+y);
 		System.out.println(a*b+x+y);
 		System.out.println(a/b+x+y);
@@ -44,13 +44,13 @@ public class ArithmeticsOperatorPractice {
 		int e = 10;
 		int f = 30;
 	      
-		e = f;
+		//e = f ;
 	    
-		System.out.println("e output:"+e);
-
+		//System.out.println("e output:"+e);
+		
 		e+=f;
 		
-		System.out.println("e output:"+e);
+		System.out.println("1111e output:"+e);
 		
 		e-=f;
 		
